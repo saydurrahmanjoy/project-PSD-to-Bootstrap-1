@@ -1,0 +1,613 @@
+*{
+
+    margin: 0;
+    
+    padding: 0;
+    
+    outline: 0;
+    
+    box-sizing: border-box;
+    
+    }
+    
+     
+    
+    .ul,ol{
+    
+     
+    
+        list-style-type: none;
+    
+    }
+    
+     
+    
+    a,a:hover{
+    
+     
+    
+     text-decoration: none;
+    
+     display: inline-block;  
+    
+     
+    
+    }
+    
+     
+    
+    h1,h2,h3,h4,h5,h6,p{
+    
+        margin: 0;
+    
+        padding: 0;
+    
+        line-height: 0.8;
+    
+     
+    
+    }
+    
+     
+    
+    /* All common css end */
+    
+     
+    
+    /* header part start  */
+    
+     
+    
+    .navbar {
+    
+     position: fixed;
+    
+     top: 0;
+    
+     left: 0;
+    
+     width: 100%;
+    
+    }  
+    
+     
+    
+    .nav-link {
+    
+        color: #fff;
+    
+        font-size: 14px;
+    
+        font-weight: 300;
+    
+        font-family: 'Montserrat', sans-serif;
+    
+        transition: .4s;
+    
+    }
+    
+     
+    
+    .nav-link:hover{
+    
+        color:#c7b299;
+    
+     
+    
+    }
+    
+    
+    
+    /* header part end  */
+    
+    
+    
+    /* banner part start  */
+    
+     
+    
+    #banner_part{
+    
+     
+    
+        background: url(../images/banner-poster.jpg);
+    
+        background-position: center;
+    
+        background-size: cover;
+    
+        background-repeat: no-repeat;
+    
+    }
+    
+     
+    
+    .banneroverly{
+    
+        padding: 380px 0;
+    
+        background: rgba(17, 17, 17, 0.7);
+    
+     
+    
+    }
+    
+     
+    
+    .banner_text h3{
+    
+        font-size: 36px;
+    
+        font-weight: 500;
+    
+        font-family: 'Raleway', sans-serif;
+    
+       
+    
+    }
+    
+    .banner_text h1{
+    
+        font-size: 52px;
+    
+        font-weight: 800;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        padding-top: 14px;
+    
+        padding-bottom: 19px;
+    
+       
+    
+    }
+    
+    .banner_text p{
+    
+        font-size: 16px;
+    
+        font-weight: 300;
+    
+        font-family: 'Montserrat', sans-serif;
+    
+        line-height: 24px;
+    
+        padding: 0px 19px;
+    
+    }
+    
+    .banner_text a{
+    
+        margin-top: 52px;
+    
+        text-transform: uppercase;
+    
+        font-size: 14px;
+    
+        font-weight: 800;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        padding: 21px 37px 18px 37px;
+    
+        border-bottom: 3px solid #736357;
+    
+        background: #998675;
+    
+        border-radius: 5px;
+    
+        color: #fff;
+    
+     
+    
+    }
+    
+     
+    
+    /* banner part end  */
+    
+     
+    
+    /* service part start  */
+    
+    #service_part{
+    
+        padding: 80px 0;
+    
+    }
+    
+    .service_item i{
+    
+        font-size: 50px;
+    
+        color: #555;
+    
+        transition: .4s;
+    
+    }
+    
+    .service_item h3{
+    
+        font-size: 22px;
+    
+        font-weight: 600;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        color:#555 ;
+    
+        padding-top: 30px;
+    
+        padding-bottom: 20px;
+    
+        transition: .4s;
+    
+    }
+    
+    .service_item p{
+    
+        color: #8c8c8c;
+    
+        font-size: 14px;
+    
+        font-weight: 300;
+    
+        font-family: 'Montserrat', sans-serif;
+    
+        line-height: 24px;
+    
+        position: relative;
+    
+    }
+    
+     
+    
+    .service_item p::after{
+    
+    position: absolute;
+    
+    height: 3px;
+    
+    width: 70px;
+    
+    content: "";
+    
+    bottom: -30px;
+    
+    left: 50%;
+    
+    transform: translateX(-50%);
+    
+    transition: .4s;
+    
+    background: cornflowerblue;
+    
+     
+    
+    }
+    
+     
+    
+    .service_item:hover i{
+    
+     
+    
+        color: #c7b299;
+    
+     
+    
+    }
+    
+     
+    
+    .service_item:hover h3{
+    
+     
+    
+        color: #c7b299;
+    
+     
+    
+    }
+    
+     
+    
+    .service_item:hover p::after {
+    
+        background-color: #c7b299;
+    
+        width: 100px;
+    
+     
+    
+    }
+    
+     
+    
+    /* service part end  */
+    
+     
+    
+    /* idea part start  */
+    
+    #idea_part{
+    
+        padding-top:80px  ;
+    
+        background: #fbfaf8;
+    
+    }
+    
+     
+    
+    .idea_text h3{
+    
+        font-size: 30px;
+    
+        font-weight: 600;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        color:#555 ;
+    
+        padding-bottom: 25px;
+    
+     
+    
+    }
+    
+     
+    
+    .idea_text p{
+    
+     
+    
+        color: #8c8c8c;
+    
+        font-size: 13px;
+    
+        font-weight: 300;
+    
+        font-family: 'Montserrat', sans-serif;
+    
+        line-height: 28px;
+    
+        padding: 0px 303px;
+    
+       
+    
+    }
+    
+     
+    
+    .idea_img{
+    
+        margin-top: 40px;
+    
+    }
+    
+     
+    
+    .idea_img img{
+    
+        width: 100%;
+    
+    }
+    
+     
+    
+    /* idea part end  */
+    
+     
+    
+    /* purchase part start  */
+    
+     
+    
+    #purchase_part{
+    
+        padding: 50px 0px;
+    
+        background: linear-gradient(to right,#211b19,#4e3427);
+    
+    }
+    
+     
+    
+    .purchase_left h3{
+    
+        font-size: 28px;
+    
+        font-weight: 400;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        color:#fff ;
+    
+        padding-bottom: 10px;
+    
+    }
+    
+    .purchase_left p{
+    
+        color: #615855;
+    
+        font-size: 18px;
+    
+        font-weight: 300;
+    
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+     
+    
+    .purchase_left span{
+    
+        color: #c7b299;
+    
+     
+    
+    }
+    
+     
+    
+    .purchase_btn a{
+    
+        color: #fff;
+    
+        text-transform: uppercase;
+    
+        font-size: 14px;
+    
+        font-weight: 800;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        padding: 19px 28px 17px 28px;
+    
+        border-bottom: 3px solid #736357;
+    
+        background: #998675;
+    
+        border-radius: 5px;
+    
+    }
+    
+    /* purchase part end  */
+    
+     
+    
+    /* portfolio part start  */
+    
+    #portfolio_part{
+    
+        padding:80px 0 ;
+    
+      }
+    
+      .portfolio_text h3{
+
+        font-size: 30px;
+    
+        font-weight: 600;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        color:#555 ;
+    
+        padding-bottom: 25px;
+    
+    }
+    .portfolio_text p{
+
+ 
+
+        color: #8c8c8c;
+    
+        font-size: 13px;
+    
+        font-weight: 300;
+    
+        font-family: 'Montserrat', sans-serif;
+    
+        line-height: 28px;
+    
+        padding: 0px 303px;
+    
+    }
+     .portfolio_btn button{
+        padding: 10px 17px;
+        background: transparent;
+        border: 1px solid #ebebeb;
+        border-radius: 5px;
+        color: #8c8c8c;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
+        transition: .4s;
+        margin-right: 10px;
+     }
+
+     .portfolio_btn button:hover{
+        background: #998675;
+        color: #fff;
+        border: 1px solid #998675;
+     }
+    
+     .portfolio_item_text{
+        padding: 30px;
+        background: #fbfaf8;
+     }
+     .portfolio_img{
+        position: relative;
+     }
+     .portfolio_img img{
+        width: 100%;
+     }
+     .portfolio_ovarly{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(17, 17, 17, 0.8);
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+     }
+     .shape {
+        width: 30px;
+        height: 30px;
+        background: white;
+        position: absolute;
+        bottom: -15px;
+        left: 30px;
+        transform: rotate(45deg);
+    }
+    
+    .portfolio_item_text h3{
+        font-size: 30px;
+    
+        font-weight: 400;
+    
+        font-family: 'Raleway', sans-serif;
+    
+        color: #c7b299 ;
+    
+        padding-bottom: 25px;
+    }
+
+    .portfolio_item_text p{
+        color: #d1d1d1;
+    
+        font-size: 14px;
+    
+        font-weight: 400;
+    
+        font-family: 'Montserrat', sans-serif;
+    
+        line-height: 0px;
+    }
+
+    .portfolio_item:hover .portfolio_ovarly{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .portfolio_item:hover .shape{
+       background: #362f2d;
+    }
+     
+    .portfolio_item:hover .portfolio_item_text{
+        background: #362f2d;
+     }
+
+     .portfolio_ovarly_icon:hover .i{
+        opacity: 1;
+        visibility: visible;
+    
+     }
+    
+    
+    
+    
